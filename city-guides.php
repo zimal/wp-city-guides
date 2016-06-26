@@ -10,3 +10,6 @@
 * License: GPL-2.0+
 * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 */
+
+# security - deny direct acces to this files
+defined( 'ABSPATH' ) or die( 'You can\'t directly access to this file' );

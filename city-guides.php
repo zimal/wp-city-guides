@@ -13,3 +13,12 @@
 
 # security - deny direct acces to this files
 defined( 'ABSPATH' ) or die( 'You can\'t directly access to this file' );
+
+# init function
+function ect_city_guides_init($params)
+{
+	return "Hello world";
+}
+
+# add shortcode
+add_shortcode("city_guides", "ect_city_guides_init");
